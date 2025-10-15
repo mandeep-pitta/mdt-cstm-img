@@ -4,7 +4,7 @@
       "baseImages": [],
       "cloudProvider": "AWS",
       "created": "2025-10-15T00:00:00Z",
-      "description": "RHEL8 Cloudera image with SELinux enforcing",
+      "description": "RHEL8 Cloudera image with SELinux enforcing and validated sshd",
       "id": "ami-009b46fc561a13c8",
       "os": "RHEL8",
       "imageType": "RUNTIME",
