@@ -1,25 +1,22 @@
 {
-  "images": {
-    "runtime": [
-      {
-        "description": "RHEL8 Cloudera Runtime 7.2.18 with SELinux enforcing and validated sshd",
-        "created": "2025-10-15T00:00:00Z",
-        "uuid": "rhel8-selinux-enforced-image",
-        "os": "redhat8",
-        "imageType": "RUNTIME",
-        "cloudProvider": "AWS",
-        "versions": {
-          "cm": "7.12.0.1101",
-          "cdh": "7.2.18"
-        },
-        "vmImages": [
-          {
-            "region": "us-west-2",
-            "imageReference": "ami-009b46fc561a13c8"
-          }
-        ]
-      }
-    ],
-    "freeIpa": []
-  }
+  "runtimeImages": [
+    {
+      "description": "RHEL8 Cloudera Runtime 7.2.18 with SELinux enforcing and validated sshd",
+      "created": "2025-10-15T00:00:00Z",
+      "uuid": "rhel8-selinux-enforced-image",
+      "os": "redhat8",
+      "cloudProvider": "AWS",
+      "versions": {
+        "cm": "7.12.0.1101",
+        "cdh": "7.2.18"
+      },
+      "vmImages": [
+        {
+          "region": "us-west-2",
+          "imageReference": "ami-009b46fc561a13c8"
+        }
+      ]
+    }
+  ],
+  "freeIpaImages": []
 }
