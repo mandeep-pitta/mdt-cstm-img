@@ -1,17 +1,17 @@
 {
+  "versions": {
+    "cdh": "7.2.18",
+    "cm": "7.12.0.1101"
+  },
+  "description": "RHEL8 Cloudera Runtime 7.2.18 with SELinux enforcing and validated sshd",
   "images": {
     "base": [],
     "runtime": [
       {
-        "description": "RHEL8 Cloudera Runtime 7.2.18 with SELinux enforcing and validated sshd",
-        "created": "2025-10-22T00:00:00Z",
         "uuid": "rhel8-selinux-enforced-7-2-18",
+        "description": "RHEL8 Cloudera Runtime 7.2.18 with SELinux enforcing and validated sshd",
         "os": "redhat8",
         "cloudProvider": "AWS",
-        "versions": {
-          "cm": "7.12.0.1101",
-          "cdh": "7.2.18"
-        },
         "vmImages": [
           {
             "region": "us-west-2",
